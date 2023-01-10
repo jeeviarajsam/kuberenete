@@ -16,7 +16,7 @@ spec:
     spec:
       containers: 
       - name: nginx
-        image: 978819838137.dkr.ecr.ap-northeast-1.amazonaws.com/jeevi:latest
+        image: jeeviarajsam/jeevi:v4 
         ports:
         - containerPort: 80
       imagePullSecrets:
